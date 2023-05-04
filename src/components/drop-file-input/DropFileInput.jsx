@@ -1,8 +1,8 @@
 import React, { useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import './drop-file-input.css';
-import { ImageConfig } from '../../config/ImageConfig';
-import uploadImg from "../../assets/cloud-upload-regular-240.png";
+import { FileImageConfig } from '../../config/ImageConfig';
+import uploadImg from "../../assets/file-images/cloud-upload-regular-240.png";
 
 const DropFileInput = props => {
 
@@ -67,8 +67,8 @@ const DropFileInput = props => {
               >
                 <img 
                   src={
-                    ImageConfig[item.type.split('/')[1]] ||
-                    ImageConfig['default']
+                    FileImageConfig[item.type.split('/')[1]] ||
+                    FileImageConfig['default']
                   } 
                   alt="" 
                 />

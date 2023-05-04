@@ -8,6 +8,7 @@ function App() {
   }
 
   return (
+    <>
     <div className="box">
       <h2 className='header'>
         React drop files input
@@ -16,6 +17,7 @@ function App() {
         onFileChange={(files) => onFileChange(files)}
       />
     </div>
+    </>
   );
 }
 
