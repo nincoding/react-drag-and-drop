@@ -8,6 +8,9 @@
   --txt-second-color: #ccc;
   --border-color: #4267b2;
   --box-shadow: rgba(149, 157, 165, .2) 0px 8px 24px;
+  --card-bg: #272938;
+  --bg-color: #1e1d2b;
+  --txt-colot: #fff;
 }
 
 * {
